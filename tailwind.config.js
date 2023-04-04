@@ -5,7 +5,11 @@ export default {
     './index.hetml'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        background: '#09090A'
+      }
+    },
   },
   plugins: [],
 }
